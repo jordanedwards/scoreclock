@@ -1,5 +1,8 @@
-# scoreclock
+# NHL Score clock
 
 ## Install
 
-sudo apt-get install python3-rpi.gpio
+bash ./setup.sh
+
+## Load team details, schedule and rosters
+
