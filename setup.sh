@@ -8,4 +8,4 @@ chown pi /home/pi/scoreclock/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 load.py
+python3 init.py
