@@ -303,7 +303,7 @@ def load_box_score(game_id):
     )
     api_response.raise_for_status()
     payload = api_response.json()
-    print(payload)
+    # print(payload)
 
     # Get the score:
     try:
