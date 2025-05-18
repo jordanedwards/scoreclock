@@ -6,3 +6,4 @@ sudo apt-get install python3-rpi.gpio -y
 python3 -m venv .venv
 source .venv/bin/activate
 cp ~/scoreclock/.env.example ~/scoreclock/.env
+python3 load.py

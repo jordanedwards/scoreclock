@@ -10,13 +10,8 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(8, GPIO.OUT) # This is pin 8, GPIO 14
 
 
-def main(args):
-    while True:
-        GPIO.output(8, GPIO.HIGH)  # Turn on the LED
-        time.sleep(3)
-        GPIO.output(8, GPIO.LOW)
-        time.sleep(3)
-
-if __name__ == '__main__':
-    import sys
-    sys.exit(main(sys.argv))
+def play():
+    GPIO.output(8, GPIO.HIGH)  # Turn on the LED
+    time.sleep(3)
+    GPIO.output(8, GPIO.LOW)
+    time.sleep(3)
